@@ -1,0 +1,11 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+        
+    "clangd.path": "c:\\Users\\benst\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\15.0.6\\clangd_15.0.6\\bin\\clangd.exe",
+    "clangd.arguments": ["-log=verbose", 
+                         "-pretty", 
+                         "--background-index", 
+                         //"--query-driver=/bin/arm-buildroot-linux-gnueabihf-g++", //for cross compile usage
+                         "--compile-commands-dir=C:\\Users\\benst\\Desktop\\Prorgrams\\C++\\oregon_trailblazer\\clangd\\"]
+
+}
