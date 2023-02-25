@@ -18,7 +18,7 @@ protected:
     virtual void init(gfx::Window& w, gfx::Scene& s, gfx::Renderer& r) = 0;
     virtual void input(gfx::Window& w, gfx::Scene& s, point_t diffTimeMillis) = 0;
     virtual void update(gfx::Window& w, gfx::Scene& s, point_t diffTimeMillis) = 0;
-    virtual ~GameLogic() = 0;
+    virtual ~GameLogic() {};
 
     friend class engine::Engine;
 };
