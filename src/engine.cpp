@@ -60,6 +60,7 @@ namespace engine {
             }
 
             if(target_fps <= 0 || deltaFps >= 1) {
+                std::cout << "got here" << std::endl;
                 //render time
                 renderer->render(*window, *scene);
                 deltaFps--;
