@@ -8,6 +8,8 @@ namespace gfx {
 
     class Renderer {
     public:
+        Renderer();
+        ~Renderer();
         void render(Window& window, Scene& scene);
     };
 }

@@ -1,5 +1,6 @@
 //engine.cpp - implementation of a single thread, 2d, very simple one file game engine
 #include<chrono>
+#include<iostream>
 #include"engine.hpp"
 #include"funcs.hpp"
 #include"window.hpp"

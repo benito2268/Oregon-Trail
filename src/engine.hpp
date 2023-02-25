@@ -25,7 +25,7 @@ namespace engine {
 
         void run();
         static void resize();
-        
+
     public:
         Engine(std::string winTitle, gfx::WOptions ops, GameLogic& g);
         ~Engine();
@@ -33,4 +33,4 @@ namespace engine {
         void start();
         void stop();
     };
-} 
+}
